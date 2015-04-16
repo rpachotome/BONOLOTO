@@ -7,6 +7,7 @@
 package boletin26;
 
 import java.awt.Color;
+import javax.swing.JButton;
 
 /**
  *
@@ -3485,137 +3486,125 @@ public class Bonoloto extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        if(contador<7){
-            if(num1==-1){
-            jButton1.setBackground(Color.GREEN);
-            jButton1.setForeground(Color.GREEN);
-            contador ++;
-            num1=1;
-            }
-            else if(num1!=-1 && num2!=-1){
-               jButton1.setBackground(Color.GREEN);
-               jButton1.setForeground(Color.GREEN);
-            contador ++;
-            num2=1; 
-            }
-            else if(num1!=-1 && num2==-1 && num3==-1){
-               jButton1.setBackground(Color.GREEN);
-               jButton1.setForeground(Color.GREEN);
-            contador ++;
-            num3=1; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4==-1){
-               jButton1.setBackground(Color.GREEN);
-               jButton1.setForeground(Color.GREEN);
-            contador ++;
-            num4=1; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4!=-1 && num5==-1){
-               jButton1.setBackground(Color.GREEN);
-               jButton1.setForeground(Color.GREEN);
-            contador ++;
-            num5=1; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4!=-1 && num5!=-1 && num6==-1){
-               jButton1.setBackground(Color.GREEN);
-               jButton1.setForeground(Color.GREEN);
-            contador ++;
-            num6=1; 
-            }
-        }
-        else
-            jButton1.setBackground(Color.red);
-            jButton1.setForeground(Color.red);
+    
+     activarBoton(jButton1);
     }//GEN-LAST:event_jButton1ActionPerformed
         
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        if(contador<7){
-            if(num1==-1){
-            jButton2.setBackground(Color.GREEN);
-            jButton2.setForeground(Color.GREEN);
-            contador ++;
-            num1=2;
-            }
-            else if(num1!=-1 && num2!=-1){
-               jButton2.setBackground(Color.GREEN);
-               jButton2.setForeground(Color.GREEN);
-            contador ++;
-            num2=2; 
-            }
-            else if(num1!=-1 && num2==-1 && num3==-1){
-               jButton2.setBackground(Color.GREEN);
-               jButton2.setForeground(Color.GREEN);
-            contador ++;
-            num3=2; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4==-1){
-               jButton2.setBackground(Color.GREEN);
-               jButton2.setForeground(Color.GREEN);
-            contador ++;
-            num4=2; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4!=-1 && num5==-1){
-               jButton2.setBackground(Color.GREEN);
-               jButton2.setForeground(Color.GREEN);
-            contador ++;
-            num5=2; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4!=-1 && num5!=-1 && num6==-1){
-               jButton2.setBackground(Color.GREEN);
-               jButton2.setForeground(Color.GREEN);
-            contador ++;
-            num6=2; 
-            }
-        }
-        else
-            jButton2.setBackground(Color.red);
-        jButton2.setForeground(Color.red);
-    }   
+    
+     activarBoton(jButton2);
+    }     
     
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        if(contador<7){
-            if(num1==-1){
-            jButton3.setBackground(Color.GREEN);
-            jButton3.setForeground(Color.GREEN);
-            contador ++;
-            num1=3;
-            }
-            else if(num1!=-1 && num2!=-1){
-               jButton3.setBackground(Color.GREEN);
-               jButton3.setForeground(Color.GREEN);
-            contador ++;
-            num2=3; 
-            }
-            else if(num1!=-1 && num2==-1 && num3==-1){
-               jButton3.setBackground(Color.GREEN);
-               jButton3.setForeground(Color.GREEN);
-            contador ++;
-            num3=3; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4==-1){
-               jButton3.setBackground(Color.GREEN);
-               jButton3.setForeground(Color.GREEN);
-            contador ++;
-            num4=3; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4!=-1 && num5==-1){
-               jButton3.setBackground(Color.GREEN);
-               jButton3.setForeground(Color.GREEN);
-            contador ++;
-            num5=3; 
-            }
-            else if(num1!=-1 && num2==-1 && num3!=-1 && num4!=-1 && num5!=-1 && num6==-1){
-               jButton3.setBackground(Color.GREEN);
-               jButton3.setForeground(Color.GREEN);
-            contador ++;
-            num6=3; 
-            }
-        }
-        else
-            jButton3.setBackground(Color.red);
-        jButton3.setForeground(Color.red);
+    
+     activarBoton(jButton3);
+    }     
+    
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton4);
+    }     
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton5);
+    }     
+    
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton6);
+    }     
+    
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton7);
+    }     
+    
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton8);
+    }     
+    
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton9);
     }   
     
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton10);
+    }     
+    
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton11);
+    }     
+    
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton12);
+    }     
+    
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton13);
+    }     
+    
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton14);
+    }     
+    
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton15);
+    }     
+    
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton16);
+    }     
+    
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton17);
+    }     
+    
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton18);
+    }     
+    
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton19);
+    }     
+    
+     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton20);
+    }     
+     
+      private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton21);
+    }     
+      
+       private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton22);
+    }     
+       
+      private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton23);
+    }     
+      
+       private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    
+     activarBoton(jButton24);
+    }     
+      
+      
     /**
      * @param args the command line arguments
      */
@@ -3649,6 +3638,16 @@ public class Bonoloto extends javax.swing.JFrame {
                 new Bonoloto().setVisible(true);
             }
         });
+    }
+    
+    public void activarBoton(JButton nome){
+        int i=0;
+        int numeros[]=new int[6];
+        nome.setForeground(Color.red);
+       
+        numeros[i]= Integer.parseInt(nome.getText());
+        i++;
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
