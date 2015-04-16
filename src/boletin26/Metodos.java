@@ -6,10 +6,20 @@
 
 package boletin26;
 
+import java.awt.*;
+
+
 /**
  *
  * @author rpachotome
  */
 public class Metodos {
+   int num[]=new int[6];
+   int cont=0;
+   
+public void activarBoton(Button bot){
+    bot.setForeground(Color.GREEN);
+    num[cont]=Integer.parseInt(bot.getLabel());
+}
     
 }

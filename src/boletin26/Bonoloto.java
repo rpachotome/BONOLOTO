@@ -8,6 +8,7 @@ package boletin26;
 
 import java.awt.Color;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -436,288 +437,528 @@ public class Bonoloto extends javax.swing.JFrame {
         jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton2.setContentAreaFilled(false);
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setForeground(new java.awt.Color(233, 26, 100));
         jButton3.setText("3");
         jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton3.setContentAreaFilled(false);
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setForeground(new java.awt.Color(233, 26, 100));
         jButton4.setText("4");
         jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton4.setContentAreaFilled(false);
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton5.setForeground(new java.awt.Color(233, 26, 100));
         jButton5.setText("5");
         jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton5.setContentAreaFilled(false);
         jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         jButton6.setForeground(new java.awt.Color(233, 26, 100));
         jButton6.setText("6");
         jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton6.setContentAreaFilled(false);
         jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton7.setForeground(new java.awt.Color(233, 26, 100));
         jButton7.setText("7");
         jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton7.setContentAreaFilled(false);
         jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
         jButton8.setForeground(new java.awt.Color(233, 26, 100));
         jButton8.setText("8");
         jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton8.setContentAreaFilled(false);
         jButton8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
 
         jButton9.setForeground(new java.awt.Color(233, 26, 100));
         jButton9.setText("9");
         jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton9.setContentAreaFilled(false);
         jButton9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
 
         jButton10.setForeground(new java.awt.Color(233, 26, 100));
         jButton10.setText("10");
         jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton10.setContentAreaFilled(false);
         jButton10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
 
         jButton11.setForeground(new java.awt.Color(233, 26, 100));
         jButton11.setText("11");
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton11.setContentAreaFilled(false);
         jButton11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
 
         jButton12.setForeground(new java.awt.Color(233, 26, 100));
         jButton12.setText("12");
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton12.setContentAreaFilled(false);
         jButton12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
 
         jButton13.setForeground(new java.awt.Color(233, 26, 100));
         jButton13.setText("13");
         jButton13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton13.setContentAreaFilled(false);
         jButton13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
 
         jButton14.setForeground(new java.awt.Color(233, 26, 100));
         jButton14.setText("14");
         jButton14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton14.setContentAreaFilled(false);
         jButton14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
 
         jButton15.setForeground(new java.awt.Color(233, 26, 100));
         jButton15.setText("15");
         jButton15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton15.setContentAreaFilled(false);
         jButton15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
 
         jButton16.setForeground(new java.awt.Color(233, 26, 100));
         jButton16.setText("16");
         jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton16.setContentAreaFilled(false);
         jButton16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
 
         jButton17.setForeground(new java.awt.Color(233, 26, 100));
         jButton17.setText("17");
         jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton17.setContentAreaFilled(false);
         jButton17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
 
         jButton18.setForeground(new java.awt.Color(233, 26, 100));
         jButton18.setText("18");
         jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton18.setContentAreaFilled(false);
         jButton18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
         jButton19.setForeground(new java.awt.Color(233, 26, 100));
         jButton19.setText("19");
         jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton19.setContentAreaFilled(false);
         jButton19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
 
         jButton20.setForeground(new java.awt.Color(233, 26, 100));
         jButton20.setText("20");
         jButton20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton20.setContentAreaFilled(false);
         jButton20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
 
         jButton21.setForeground(new java.awt.Color(233, 26, 100));
         jButton21.setText("21");
         jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton21.setContentAreaFilled(false);
         jButton21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
 
         jButton22.setForeground(new java.awt.Color(233, 26, 100));
         jButton22.setText("22");
         jButton22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton22.setContentAreaFilled(false);
         jButton22.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
 
         jButton23.setForeground(new java.awt.Color(233, 26, 100));
         jButton23.setText("23");
         jButton23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton23.setContentAreaFilled(false);
         jButton23.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
 
         jButton24.setForeground(new java.awt.Color(233, 26, 100));
         jButton24.setText("24");
         jButton24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton24.setContentAreaFilled(false);
         jButton24.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
 
         jButton25.setForeground(new java.awt.Color(233, 26, 100));
         jButton25.setText("25");
         jButton25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton25.setContentAreaFilled(false);
         jButton25.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
 
         jButton26.setForeground(new java.awt.Color(233, 26, 100));
         jButton26.setText("26");
         jButton26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton26.setContentAreaFilled(false);
         jButton26.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
 
         jButton27.setForeground(new java.awt.Color(233, 26, 100));
         jButton27.setText("28");
         jButton27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton27.setContentAreaFilled(false);
         jButton27.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
 
         jButton28.setForeground(new java.awt.Color(233, 26, 100));
         jButton28.setText("29");
         jButton28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton28.setContentAreaFilled(false);
         jButton28.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton28ActionPerformed(evt);
+            }
+        });
 
         jButton29.setForeground(new java.awt.Color(233, 26, 100));
         jButton29.setText("27");
         jButton29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton29.setContentAreaFilled(false);
         jButton29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
 
         jButton30.setForeground(new java.awt.Color(233, 26, 100));
         jButton30.setText("31");
         jButton30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton30.setContentAreaFilled(false);
         jButton30.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
 
         jButton31.setForeground(new java.awt.Color(233, 26, 100));
         jButton31.setText("30");
         jButton31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton31.setContentAreaFilled(false);
         jButton31.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
 
         jButton32.setForeground(new java.awt.Color(233, 26, 100));
         jButton32.setText("32");
         jButton32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton32.setContentAreaFilled(false);
         jButton32.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
 
         jButton33.setForeground(new java.awt.Color(233, 26, 100));
         jButton33.setText("33");
         jButton33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton33.setContentAreaFilled(false);
         jButton33.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton33ActionPerformed(evt);
+            }
+        });
 
         jButton34.setForeground(new java.awt.Color(233, 26, 100));
         jButton34.setText("34");
         jButton34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton34.setContentAreaFilled(false);
         jButton34.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton34ActionPerformed(evt);
+            }
+        });
 
         jButton35.setForeground(new java.awt.Color(233, 26, 100));
         jButton35.setText("36");
         jButton35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton35.setContentAreaFilled(false);
         jButton35.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton35ActionPerformed(evt);
+            }
+        });
 
         jButton36.setForeground(new java.awt.Color(233, 26, 100));
         jButton36.setText("35");
         jButton36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton36.setContentAreaFilled(false);
         jButton36.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
 
         jButton37.setForeground(new java.awt.Color(233, 26, 100));
         jButton37.setText("37");
         jButton37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton37.setContentAreaFilled(false);
         jButton37.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton37ActionPerformed(evt);
+            }
+        });
 
         jButton38.setForeground(new java.awt.Color(233, 26, 100));
         jButton38.setText("39");
         jButton38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton38.setContentAreaFilled(false);
         jButton38.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton38ActionPerformed(evt);
+            }
+        });
 
         jButton39.setForeground(new java.awt.Color(233, 26, 100));
         jButton39.setText("38");
         jButton39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton39.setContentAreaFilled(false);
         jButton39.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton39ActionPerformed(evt);
+            }
+        });
 
         jButton40.setForeground(new java.awt.Color(233, 26, 100));
         jButton40.setText("40");
         jButton40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton40.setContentAreaFilled(false);
         jButton40.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
 
         jButton41.setForeground(new java.awt.Color(233, 26, 100));
         jButton41.setText("41");
         jButton41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton41.setContentAreaFilled(false);
         jButton41.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton41ActionPerformed(evt);
+            }
+        });
 
         jButton42.setForeground(new java.awt.Color(233, 26, 100));
         jButton42.setText("42");
         jButton42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton42.setContentAreaFilled(false);
         jButton42.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton42ActionPerformed(evt);
+            }
+        });
 
         jButton43.setForeground(new java.awt.Color(233, 26, 100));
         jButton43.setText("43");
         jButton43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton43.setContentAreaFilled(false);
         jButton43.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton43ActionPerformed(evt);
+            }
+        });
 
         jButton44.setForeground(new java.awt.Color(233, 26, 100));
         jButton44.setText("44");
         jButton44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton44.setContentAreaFilled(false);
         jButton44.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton44ActionPerformed(evt);
+            }
+        });
 
         jButton45.setForeground(new java.awt.Color(233, 26, 100));
         jButton45.setText("45");
         jButton45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton45.setContentAreaFilled(false);
         jButton45.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
 
         jButton46.setForeground(new java.awt.Color(233, 26, 100));
         jButton46.setText("46");
         jButton46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton46.setContentAreaFilled(false);
         jButton46.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
 
         jButton47.setForeground(new java.awt.Color(233, 26, 100));
         jButton47.setText("47");
         jButton47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton47.setContentAreaFilled(false);
         jButton47.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
 
         jButton48.setForeground(new java.awt.Color(233, 26, 100));
         jButton48.setText("48");
         jButton48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton48.setContentAreaFilled(false);
         jButton48.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton48ActionPerformed(evt);
+            }
+        });
 
         jButton49.setForeground(new java.awt.Color(233, 26, 100));
         jButton49.setText("49");
         jButton49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(233, 26, 100)));
         jButton49.setContentAreaFilled(false);
         jButton49.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton49ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -3488,121 +3729,202 @@ public class Bonoloto extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
     
      activarBoton(jButton1);
+     contador++;
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+activarBoton(jButton2); contador++;
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+activarBoton(jButton3); contador++;    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+activarBoton(jButton4); contador++;    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        activarBoton(jButton5); contador++;
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        activarBoton(jButton6); contador++;
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        activarBoton(jButton7); contador++;
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        activarBoton(jButton8); contador++;
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        activarBoton(jButton9); contador++;
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        activarBoton(jButton10); contador++;
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        activarBoton(jButton11); contador++;
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        activarBoton(jButton12); contador++;
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        activarBoton(jButton13); contador++;
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        activarBoton(jButton14); contador++;
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        activarBoton(jButton15); contador++;
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        activarBoton(jButton16); contador++;
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        activarBoton(jButton17); contador++;
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        activarBoton(jButton18); contador++;
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        activarBoton(jButton19); contador++;
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        activarBoton(jButton20); contador++;
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        activarBoton(jButton21); contador++;
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        activarBoton(jButton22); contador++;
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        activarBoton(jButton23); contador++;
+    }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        activarBoton(jButton24); contador++;
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        activarBoton(jButton25); contador++;
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        activarBoton(jButton26); contador++;
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+        activarBoton(jButton29); contador++;
+    }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        activarBoton(jButton27); contador++;
+    }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        activarBoton(jButton28); contador++;
+    }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        activarBoton(jButton31); contador++;
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        activarBoton(jButton30); contador++;
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        activarBoton(jButton32); contador++;
+    }//GEN-LAST:event_jButton32ActionPerformed
+
+    private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
+        activarBoton(jButton33); contador++;
+    }//GEN-LAST:event_jButton33ActionPerformed
+
+    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+        activarBoton(jButton34); contador++;
+    }//GEN-LAST:event_jButton34ActionPerformed
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        activarBoton(jButton36); contador++;
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+        activarBoton(jButton35); contador++;
+    }//GEN-LAST:event_jButton35ActionPerformed
+
+    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+        activarBoton(jButton37); contador++;
+    }//GEN-LAST:event_jButton37ActionPerformed
+
+    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
+        activarBoton(jButton39); contador++;
+    }//GEN-LAST:event_jButton39ActionPerformed
+
+    private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
+        activarBoton(jButton38); contador++;
+    }//GEN-LAST:event_jButton38ActionPerformed
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        activarBoton(jButton40); contador++;
+    }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+        activarBoton(jButton41); contador++;
+    }//GEN-LAST:event_jButton41ActionPerformed
+
+    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+        activarBoton(jButton42); contador++;
+    }//GEN-LAST:event_jButton42ActionPerformed
+
+    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+        activarBoton(jButton43); contador++;
+    }//GEN-LAST:event_jButton43ActionPerformed
+
+    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
+        activarBoton(jButton44); contador++;
+    }//GEN-LAST:event_jButton44ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        activarBoton(jButton45); contador++;
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+        activarBoton(jButton46); contador++;
+    }//GEN-LAST:event_jButton46ActionPerformed
+
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+        activarBoton(jButton47); contador++;
+    }//GEN-LAST:event_jButton47ActionPerformed
+
+    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
+        activarBoton(jButton48); contador++;
+    }//GEN-LAST:event_jButton48ActionPerformed
+
+    private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
+        activarBoton(jButton49); contador++;
+    }//GEN-LAST:event_jButton49ActionPerformed
         
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
     
-     activarBoton(jButton2);
-    }     
     
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
     
-     activarBoton(jButton3);
-    }     
-    
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton4);
-    }     
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton5);
-    }     
-    
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton6);
-    }     
-    
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton7);
-    }     
-    
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton8);
-    }     
-    
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton9);
-    }   
-    
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton10);
-    }     
-    
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton11);
-    }     
-    
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton12);
-    }     
-    
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton13);
-    }     
-    
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton14);
-    }     
-    
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton15);
-    }     
-    
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton16);
-    }     
-    
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton17);
-    }     
-    
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton18);
-    }     
-    
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton19);
-    }     
-    
-     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton20);
-    }     
-     
-      private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton21);
-    }     
-      
-       private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton22);
-    }     
-       
-      private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton23);
-    }     
-      
-       private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    
-     activarBoton(jButton24);
-    }     
       
       
     /**
@@ -3643,11 +3965,15 @@ public class Bonoloto extends javax.swing.JFrame {
     public void activarBoton(JButton nome){
         int i=0;
         int numeros[]=new int[6];
-        nome.setForeground(Color.red);
+        if(contador<6){
+            
+        nome.setForeground(Color.GREEN);
        
         numeros[i]= Integer.parseInt(nome.getText());
-        i++;
         
+        }
+            else
+        JOptionPane.showMessageDialog(null, "Ya metio los seis numeros");
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
