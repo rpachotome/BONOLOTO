@@ -10,15 +10,6 @@ package boletin26;
  *
  * @author rpachotome
  */
-public class Boletin26 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Bonoloto bon=new Bonoloto();
-        bon.setVisible(true);
-    
-    }
+public class Metodos {
     
 }
